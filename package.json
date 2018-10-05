@@ -1,0 +1,32 @@
+{
+  "name": "josephbabeltest",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "destroy": "rm -r build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbarron1215/JosephBabelTest.git"
+  },
+  "author": "Joseph Barron",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbarron1215/JosephBabelTest/issues"
+  },
+  "homepage": "https://github.com/jbarron1215/JosephBabelTest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "babel-polyfill": "^6.26.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
